@@ -1,0 +1,24 @@
+# Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# NuGet
+packages/
+*.nupkg
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# Windows Media Player и другие временные файлы
+*.log
+*.tmp
