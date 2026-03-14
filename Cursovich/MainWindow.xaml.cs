@@ -349,6 +349,7 @@ namespace Cursovich
         {
             mediaPlayer = new WindowsMediaPlayer();
             mediaPlayer.URL = GetResourcePath("backgroundMusic.mp3");
+            mediaPlayer.settings.volume = 5;
             Tower1Source = GetResourcePath("ScoutImage.png");
             Tower2Source = GetResourcePath("FlamerImage.png");
             Tower3Source = GetResourcePath("SniperImage.png");
